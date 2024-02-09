@@ -19,9 +19,9 @@ source venv/bin/activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ``` 
-4. Создать и выполнить миграции:
+4. Выполнить миграции:
 ```
-python manage.py makemigrations
+cd blog
 python manage.py migrate
 ``` 
 5. Создать суперпользователя:
@@ -35,3 +35,8 @@ python manage.py runserver
 7. Документация к проекту доступна по адресу http://127.0.0.1:8000/api/docs/
 8. Просмотр постов доступен всем. Публикация, изменение и удаление постов доступны только зарегистрированным пользователям.
 Изменять и удалять посты может только автор этих постов.
+9. Тестировала через Postman.
+![image](https://github.com/pestovaarina/test_task/assets/125951569/506ce231-2027-4d36-bfaa-6b4e06131d89)
+![image](https://github.com/pestovaarina/test_task/assets/125951569/70f8b8f8-d878-49c1-ac5f-bb2a0401aaf5)
+
+
